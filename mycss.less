@@ -1,0 +1,441 @@
+body{
+  background-color: #f2f2f2;
+}
+a{
+  text-decoration:none;
+}
+.navi{
+  width:100%;
+  height:70px;
+  background-color: #ff210a;
+  a{
+    color: white;
+  }
+  .homeNavi{
+    width:230px;
+    float:left;
+    p{
+      text-align: center;
+      line-height: 70px;
+      font-size: 18px;
+      height:70px;
+      background-color: #d23b19;
+    }
+  }
+  .leftNavi{
+    height:70px;
+    width:45%;
+    float:left;
+    ul li{
+      display: inline-block;
+      line-height: 70px;
+      padding-left:50px;
+    }
+  }
+  .rightNavi{
+    height:70px;
+    width:24%;
+    float:right;
+    ul li{
+      display: inline-block;
+      line-height: 70px;
+      padding:0 15px;
+      position:relative;
+      left:65px;
+    }
+  }
+}
+.content{
+  width:100%;
+  table{
+    width:100%;
+    margin-top:10px;
+    tr{
+      width:100%;
+    }
+  }
+}
+.right,left{
+  width:30%;
+  vertical-align: top;
+}
+.middle{
+  width:40%;
+  vertical-align: top;
+}
+.news{
+  width:100%;
+  height:360px;
+  background-color: white;
+  .newsMenu{
+    width:96%;
+    position:relative;
+    left:2%;
+    height: 50px;
+    border-bottom: 2px #cc0000 solid;
+    .newsType,.newsOperation{
+      width:50%;
+      float:left;
+    }
+  }
+}
+.newsType .newsCenter{
+  color:red;
+}
+.newsMenu li{
+  line-height: 50px;
+  display: inline;
+}
+.newsType li{
+  padding-left: 20px;
+}
+.newsOperation li{
+  margin-left: 10px;
+  position: relative;
+  left:130px;
+}
+.newsInfo ul{
+  width:96%;
+  position:relative;
+  left:2%;
+  border:1px solid lightgray;
+}
+.newsTitle{
+  width:320px;
+  display: inline-block;
+  white-space:nowrap;
+  text-overflow:ellipsis;
+  -o-text-overflow:ellipsis ;
+  overflow: hidden;
+}
+.newsTime{
+  color: gray;
+  position:relative;
+  left:20px;
+}
+.newsInfo li{
+  font-size: 13px;
+  padding:9px 10px;
+  border-bottom: 1px dotted lightgray;
+}
+.notice{
+  width:100%;
+  height:290px;
+  background-color: white;
+  .noticeMenu{
+    width:96%;
+    position:relative;
+    left:2%;
+    height: 50px;
+    border-bottom: 2px #cc0000 solid;
+    .noticeType,.noticeOperation{
+      width:50%;
+      float:left;
+    }
+    .noticeMenu li{
+      line-height: 50px;
+      display: inline;
+    }
+  }
+}
+.noticeType .mainNotice{
+  color:red;
+}
+.noticeType li{
+  padding-left: 20px;
+}
+.noticeOperation li{
+  margin-left: 10px;
+  position: relative;
+  left:130px;
+}
+.noticeInfo ul{
+  width:96%;
+  position:relative;
+  left:2%;
+  border:1px solid lightgray;
+  li{
+    font-size: 13px;
+    padding:9px 10px;
+    border-bottom: 1px dotted lightgray;
+  }
+}
+.noticeTitle{
+  width:320px;
+  display: inline-block;
+  white-space:nowrap;
+  text-overflow:ellipsis;
+  -o-text-overflow:ellipsis ;
+  overflow: hidden;
+}
+.noticeTime{
+  color: gray;
+  position:relative;
+  left:20px;
+}
+
+.swiper-container{
+  width:100%;
+  height:360px;
+  background-color:white;
+  img{
+  width:96%;
+  height:340px;
+  display: block;
+  margin: 0 auto;
+  position:relative;
+  top:12px;
+  }
+  p{
+    width:570px;
+    height:50px;
+    position:relative;
+    bottom:38px;
+    margin: 0 auto;
+    background: url("bantouming.png");
+    color: white;
+    line-height:50px;
+    padding-left:20px;
+  }
+}
+.email{
+  width:100%;
+  height:290px;
+  background-color: white;
+  .emailMenu{
+    width:96%;
+    position:relative;
+    left:2%;
+    height: 50px;
+    border-bottom: 2px #cc0000 solid;
+    .emailType,.emailOperation{
+      width:50%;
+      float:left;
+    }
+  }
+}
+.emailType .myEmail{
+  color:red;
+}
+.emailMenu li{
+  line-height: 50px;
+  display: inline;
+}
+.emailType li{
+  padding-left: 20px;
+}
+.emailOperation li{
+  margin-left: 10px;
+  position: relative;
+  left:210px;
+}
+.emailInfo ul{
+  width:96%;
+  position:relative;
+  left:2%;
+  border:1px solid lightgray;
+  li{
+    font-size: 13px;
+    padding:9px 10px;
+    border-bottom: 1px dotted lightgray;
+  }
+}
+.emailTitle{
+  width:400px;
+  display: inline-block;
+  white-space:nowrap;
+  text-overflow:ellipsis;
+  -o-text-overflow:ellipsis ;
+  overflow: hidden;
+}
+.emailTime{
+  color: gray;
+  position:relative;
+  left:60px;
+}
+.normal,.emergent{
+  font-size: 11px;
+  border: 1px solid darkgray;
+  color:darkgray;
+}
+.emergent{
+  border: 1px solid #cc0000;
+  background-color:#cc0000 ;
+  color:white;
+}
+.file{
+  width:100%;
+  height:230px;
+  background-color: white;
+  .fileMenu{
+  width:96%;
+  position:relative;
+  left:2%;
+  height: 50px;
+  border-bottom: 2px #cc0000 solid;
+    .fileType,.fileOperation{
+    width:50%;
+    float:left;
+    }
+  }
+}
+.fileType li{
+  color:red;
+}
+.fileMenu li{
+  line-height: 50px;
+  display: inline;
+}
+.fileType li{
+  padding-left: 20px;
+}
+.fileOperation li{
+  margin-left: 10px;
+  position: relative;
+  left:180px;
+}
+.fileInfo ul{
+  width:96%;
+  position:relative;
+  left:2%;
+  border:1px solid lightgray;
+  li{
+    width:150px;
+    height:40px;
+    float:left;
+    margin:8px 17px;
+    position: relative;
+    left:40px;
+    text-align: center;
+    line-height: 40px;
+    border: 1px dotted lightgray;
+    border-radius:5px;
+    background-color: #f2f2f2;
+  }
+}
+.access{
+  width:100%;
+  height:130px;
+  background-color: white;
+  .accessMenu{
+  width:96%;
+  position:relative;
+  left:2%;
+  height: 50px;
+  border-bottom: 2px #cc0000 solid;
+    .accessType,.accessOperation{
+    width:50%;
+    float:left;
+    }
+    li{
+      line-height: 50px;
+      display: inline;
+    }
+  }
+}
+.accessType li{
+  color:red;
+}
+.accessType li{
+  padding-left: 20px;
+}
+.accessOperation li{
+  margin-left: 10px;
+  position: relative;
+  left:150px;
+}
+.chooseAccess ul{
+  width:96%;
+  position:relative;
+  left:2%;
+  height:69px;
+  border:1px solid lightgray;
+  li {
+    width:45px;
+    font-size: 0.9em;
+    text-align: center;
+    margin-left:50px;
+    position:relative;
+    top:10px;
+    display: inline-block;
+    .edit{
+      width:30px;
+      height:30px;
+      position: relative;
+      left:5px;
+      border: 1px dotted lightgray;
+      background-color: #f2f2f2;
+      margin-bottom: 10px;
+      line-height: 30px;
+      border-radius:5px;
+    }
+  }
+}
+.conference{
+  width:100%;
+  height:290px;
+  background-color: white;
+  .conferenceMenu{
+    width:96%;
+    position:relative;
+    left:2%;
+    height: 50px;
+    border-bottom: 2px #cc0000 solid;
+    .conferenceType,.conferenceOperation{
+      width:50%;
+      float:left;
+    }
+    li{
+       line-height: 50px;
+       display: inline;
+    }
+  }
+}
+.conferenceType li{
+  color:red;
+}
+
+.conferenceType li{
+  padding-left: 20px;
+}
+.conferenceOperation li{
+  margin-left: 10px;
+  position: relative;
+  left:120px;
+}
+.conferenceInfo ul{
+  width:96%;
+  position:relative;
+  left:2%;
+  border: 1px solid lightgray;
+  li{
+    font-size: 13px;
+    padding:9px 10px;
+    border-bottom: 1px dotted lightgray;
+    .conferenceTitle{
+      width:280px;
+      display: inline-block;
+      white-space:nowrap;
+      text-overflow:ellipsis;
+      -o-text-overflow:ellipsis ;
+      overflow: hidden;
+    }
+    .conferenceTime{
+      color: gray;
+      position:relative;
+      left:20px;
+    }
+    .join,.noJoin{
+      font-size: 11px;
+      border: 1px solid darkgray;
+      color:darkgray;
+    }
+    .join{
+      border: 1px solid #76c91f;
+      background-color:#76c91f;
+      color:white;
+    }
+  }
+}
+.clearfix:before{content: " ";display: table;}
+.clearfix:after{clear: both;content: " ";display: table;}

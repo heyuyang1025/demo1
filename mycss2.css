@@ -1,0 +1,255 @@
+.body{
+    margin:0;
+    padding:0;
+}
+.navigation{
+    width:100%;
+    height:70px;
+    margin-top:20px;
+    padding:0;
+    background-color: #cc0000;
+}
+.navigation a{
+    color: white;
+}
+.content{
+    position: relative;
+    top:10px;
+}
+.left{
+    width:460px;
+    height:650px;
+    float:left;
+    /*border:1px solid black;*/
+
+}
+.right{
+    width:455px;
+    height:650px;
+    /*border:1px solid black;*/
+    position:absolute;
+    right:0px;
+    top:0px;
+}
+.middle{
+    width:600px;
+    height:650px;
+    margin:0 auto;
+    /*border:1px solid black;*/
+}
+.home{
+    width:150px;
+    height:70px;
+    background-color: brown;
+    text-align: center;
+}
+.home a{
+    line-height: 70px;
+}
+.leftMenu{
+    width:650px;
+    height:70px;
+    position:absolute;
+    top:20px;
+    left:150px;
+}
+.leftMenu li{
+    display: inline-block;
+    line-height: 70px;
+    margin-left:59px;
+}
+.rightMenu{
+    width:400px;
+    height:70px;
+    position:absolute;
+    top:20px;
+    right:5px;
+}
+
+.rightMenu ul li{
+    display: inline-block;
+    line-height: 70px;
+    margin-left:45px;
+}
+a{
+    /*color: white;*/
+    text-decoration: none;
+}
+.newsType{
+
+}
+.newsType span{
+    line-height: 70px;
+
+}
+.newsCenter{
+    position:relative;
+    left:29px;
+    top:10px;
+}
+.hotNews{
+    position:relative;
+    left:60px;
+    top:10px;
+}
+.refreshNews,.moreNews{
+    position:relative;
+    left:223px;
+    top:10px;
+}
+
+.newsContent ul{
+    width:420px;
+    height:300px;
+    margin:0 auto;
+    border:1px solid lightgrey;
+    border-top: 2px solid red;
+}
+.newsContent li{
+    width:400px;
+    list-style-type: none;
+    border-bottom:1px dotted lightgrey ;
+    font-size: 13px;
+    margin-top:15px;
+    margin-left: 10px;
+}
+.newsTitle{
+    width:300px;
+    display: inline-block;
+    white-space:nowrap;
+    text-overflow:ellipsis;
+    -o-text-overflow:ellipsis ;
+    overflow: hidden;
+
+}
+.newsTime{
+    color: darkgray;
+    position:relative;
+    left:25px;
+}
+.noteType{
+
+}
+.noteType span{
+    line-height: 50px;
+}
+.note1{
+    position:relative;
+    left:29px;
+    top:1px;
+}
+.note2{
+    position:relative;
+    left:60px;
+    top:1px;
+}
+.refreshNotes,.moreNotes{
+    position:relative;
+    left:192px;
+    top:1px;
+}
+.noteContent ul{
+    width:420px;
+    height:211px;
+    margin:0 auto;
+    border:1px solid lightgrey;
+    border-top: 2px solid red;
+}
+.noteContent li{
+    width:400px;
+    list-style-type: none;
+    border-bottom:1px dotted lightgrey;
+    font-size: 13px;
+    margin-top:15px;
+    margin-left: 10px;
+}
+.noteTitle{
+    width:300px;
+    display: inline-block;
+    white-space:nowrap;
+    text-overflow:ellipsis;
+    -o-text-overflow:ellipsis ;
+    overflow: hidden;
+}
+.noteTime{
+    color: darkgray;
+    position: relative;
+    left:25px;
+}
+.picture{
+
+}
+.picture a{
+    display: block;
+    /*margin-top:30px;*/
+    /*border:1px solid black;*/
+}
+.picture img{
+    width:590px;
+    height:372px;
+    display:block;
+    margin: 0 auto;
+
+}
+.picture p{
+    width:549px;
+    padding:20px;
+    margin:0 auto;
+    position: absolute;
+    bottom:279px;
+    left:474px;
+    color: white;
+    font-size: 20px;
+    background: url("bantouming.png");
+}
+.emailType{
+    height: 50px;
+ }
+.emailType span{
+
+}
+.myEmail{
+    position: relative;
+    left:29px;
+    top:19px;
+}
+.refreshEmail,.moreEmail{
+    position: relative;
+    top:19px;
+    left:445px;
+}
+.emailContent{
+
+}
+.emailContent ul{
+    width:588px;
+    height:211px;
+    margin:0 auto;
+    border:1px solid lightgrey;
+    border-top: 2px solid red;
+}
+.emailContent li{
+    width:569px;
+    list-style-type: none;
+    border-bottom:1px dotted lightgrey;
+    font-size: 13px;
+    margin-top:15px;
+    margin-left: 10px;
+}
+.emailTitle{
+    width:450px;
+    display: inline-block;
+    white-space:nowrap;
+    text-overflow:ellipsis;
+    -o-text-overflow:ellipsis ;
+    overflow: hidden;
+}
+.emailTime{
+    color: darkgray;
+    position: relative;
+    left:44px;
+}
+/*white-space:nowrap;*/
+/*text-overflow:ellipsis;*/
+/*-o-text-overflow:ellipsis;*/
+/*overflow: hidden;*/
